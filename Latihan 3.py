@@ -52,7 +52,7 @@ while True:
                                              targetAngle=50,
                                              offset=10)
         print(f"Sudut: {angle:.2f}, Dekat 50°? {isCloseAngle50}")
-
+ 
     # Tampilkan hasil
     cv2.imshow("Pose + Angle", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
